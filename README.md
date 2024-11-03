@@ -13,7 +13,7 @@ which matches the real view at the location [(see it on Google map)](https://www
 ## Data
 
 This program requires two data sources, digital elevation model (DEM) and mountain names. DEM can be download from [Taiwan gonverment's website](https://data.gov.tw/dataset/35430
-). Mountain names can be retrieved from https://overpass-turbo.eu/ with the following query.  
+). Mountain names can be retrieved from https://overpass-turbo.eu/ with the following query.
 
     [out:json][timeout:25];
     {{geocodeArea:Taiwan}}->.searchArea;
