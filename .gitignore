@@ -1,0 +1,5 @@
+*.so
+*.ttf
+data_taiwan
+.ipynb_checkpoints
+data_doc.doc
